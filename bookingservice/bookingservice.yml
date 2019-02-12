@@ -11,13 +11,3 @@ spring:
     username: "sa"
     password:
     driver-class-name: "org.h2.Driver"
-
-security:
-  basic:
-    enabled: "false"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
