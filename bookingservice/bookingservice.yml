@@ -14,5 +14,4 @@ spring:
 
 security:
   basic:
-    enabled: "true"
-    authorize-mode: "NONE"
+    enabled: "false"
