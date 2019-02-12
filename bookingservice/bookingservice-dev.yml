@@ -1,1 +1,19 @@
-example.property: "I AM IN THE DEV"
+example:
+  property: "I AM IN THE DEV"
+
+spring:
+  jpa:
+    database: "POSTGRESQL"
+    show-sql: "true"
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQLDialect"
+  datasource:
+    platform:  "postgres"
+    url: "jdbc:postgresql://localhost:5432/booking_local"
+    username: "postgres"
+    password: "{cipher}796ad72779ecbbb46c47b97481306b27a3bcfd81c7b2bc1c02f5de1428161bc2"
+    testWhileIdle: "true"
+    validationQuery: "SELECT 1"
+  database:
+    driverClassName: "org.postgresql.Driver"
