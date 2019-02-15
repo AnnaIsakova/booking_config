@@ -8,6 +8,6 @@ spring:
       path: "/h2"
   datasource:
     url: "jdbc:h2:file:~/booking_in_memory"
-    username: "test"
-    password: "test"
+    username: "sa"
+    password:
     driver-class-name: "org.h2.Driver"
