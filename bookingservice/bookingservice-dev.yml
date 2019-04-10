@@ -15,5 +15,4 @@ spring:
     password: "{cipher}796ad72779ecbbb46c47b97481306b27a3bcfd81c7b2bc1c02f5de1428161bc2"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
-  database:
-    driverClassName: "org.postgresql.Driver"
+    driver-class-name: "org.postgresql.Driver"
